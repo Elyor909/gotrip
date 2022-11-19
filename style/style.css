@@ -117,6 +117,7 @@ ul {
     font-size: 18px;
     line-height: 21px;
     color: #000000;
+    overflow: scroll;
 }
 
 .main-bottom-title {
@@ -225,13 +226,14 @@ ul {
         width: 80%;
     }
     .main-top-content > img {
-        width: 55%;
+        width: 50%;
+        height: 300px;
     }
     .main-bottom-clothes-item {
         width: 23%;
     }
     .img-clothes{
-        height: 270px;
+        height: 230px;
     }
     .img-clothes > img {
         width: 80%;
@@ -261,5 +263,145 @@ ul {
     .main-top-content > img {
         width: 50%;
     }
+    .main-top-title,
+    .main-bottom-title,
+    .main-feedback-left-title {
+        font-size: 30px;
+        line-height: 43px;
+    }
+    .main-feedback-right-tel,
+    .main-feedback-right-mail {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .clothes-item-title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .main-top-text,
+    .main-feedback-left-text {
+        font-size: 16px;
+        line-height: 22px;
+        height: 270px;
+    }
+    .main-feedback-left-text {
+        width: 70%;
+    }
         
+}
+
+@media(max-width:760px) {
+    .header-content {
+        height: 550px;
+    }
+    .header-content-title {
+        font-size: 35px;
+        line-height: 38px;
+    }
+    .header-content-text {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .header-content-btn {
+        font-size: 10px;
+        line-height: 14px;
+        padding: 8px 38px;
+        margin-top: 40px;
+    }
+    .main-top-content > img {
+        width: 50%;
+        height: 200px;
+    }
+    .main-top-title,
+    .main-bottom-title,
+    .main-feedback-left-title {
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .main-top-text,
+    .main-feedback-left-text  {
+        max-height: 200px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .main-bottom-clothes-item {
+        width: 23%;
+    }
+    .img-clothes{
+        height: 170px;
+    }
+    .img-clothes > img {
+        width: 60%;
+    }
+    .main-feedback-right-tel {
+        margin-top: 80px;
+    }
+    .main-feedback-right-tel,
+    .main-feedback-right-mail {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+@media(max-width:576px) {
+    .header-navbar {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .header-content {
+        height: 450px;
+    }
+    .header-content-title {
+        font-size: 26px;
+        line-height: 15px;
+    }
+    .header-content-text {
+        font-size: 17px;
+        line-height: 15px;
+    }
+    .header-content-btn {
+        font-size: 10px;
+        line-height: 10px;
+        padding: 8px 38px;
+        margin-top: 30px;
+    }
+    .main-top-content > img {
+        width: 50%;
+        height: 150px;
+    }
+    .main-top-title,
+    .main-bottom-title,
+    .main-feedback-left-title {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .main-top-text {
+        max-height: 150px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .main-bottom-clothes {
+        flex-wrap: wrap;
+        row-gap: 35px;
+    }
+    .main-bottom-clothes-item {
+        width: 45%;
+    }
+    .img-clothes{
+        height: 200px;
+    }
+    .img-clothes > img {
+        width: 70%;
+    }
+    .main-feedback-left-text {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .main-feedback-right-tel {
+        margin-top: 70px;
+    }
+    .main-feedback-right-tel,
+    .main-feedback-right-mail {
+        font-size: 14px;
+        line-height: 17px;
+    }
 }
